@@ -1,0 +1,1405 @@
+@media screen and (min-width:345px) {
+*{
+    scroll-behavior: smooth;
+}
+.body{
+background-color: white;
+}
+.navbar{
+  color: white;
+    border: 15px solid black;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -10px;
+    height: 140px;
+    background-color: black;
+    display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+}
+.navr-content {
+   /* border: 2px solid red;*/
+    color: mintcream;
+    padding-left: 20px;
+    font-family: 'Inter',sans-serif;
+
+}
+.navr-content h4{
+   /* border: 2px solid red;*/
+    font-size: 44px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.navleft{
+   /* border: 2px solid green;*/
+    margin-left: 190px;
+    margin-top: -3px;
+}
+.navl-content{
+   /* border: 2px solid red;*/
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+}
+
+.navl-content button {
+    background-color: black;
+    color: mintcream;
+    border: none;
+   font-size: 89px;
+   margin-top: 7px;
+}
+
+   .drop-menu {
+  display: none;
+  position: absolute;
+  top: 126px;
+  left: -1px;
+  background:black;
+  border: 11px solid black;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  width: 99%;
+  height: 950px;
+}
+
+.drop-menu a {
+  display: block;
+  font-family: 'Inter',sans-serif;
+  padding: 20px;
+  margin-left: 30px;
+  font-size: 56px;
+  color: mintcream;
+  text-decoration: none;
+}
+
+.drop-menu a:hover {
+  background: black;
+  color: mintcream;
+  text-decoration:underline;
+}
+
+.close-btn {
+  margin-left: 850px;
+  color: red;
+  font-size: 89px;
+  cursor: pointer;
+  font-family: 'Inter',sans-serif;
+  padding: 8px;
+}
+
+.banner 
+{
+    background-color: #707070;
+    border: 15px solid #707070;
+    width: 100%;
+    margin-left: -5px;
+    height :550px;
+    display: flex;
+}
+.banner-image img {
+    margin-top: 60px;
+    margin-left: -10px;
+    width: 450px;
+    height:400px;
+    
+}
+.banner-note {
+    font-family: 'Inter',sans-serif;
+    color: mintcream;
+}
+.banner-note h1{
+    font-weight: bold;
+    font-size: 63px;
+    margin-top: 105px;
+    margin-left: 39px;
+}
+.banner-note p{
+    margin-top: -105px;
+    margin-left: 40px;
+    font-size: 55px;
+}
+.banner-note h6 {
+    margin-top: -50px;
+ font-size: 34px;
+ font-weight: bold;
+ margin-left: 10px;
+}
+.banner-note h5 {
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+.banner-note h4{
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: -35px;
+    margin-left: 10px;
+}
+#view-btn{
+    width: 315px;
+    height: 70px;
+    background-color: black;
+    color: mintcream;
+    border-radius: 40px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+#view-btn:hover {
+    background-color: white;
+    border: white;
+    color: black;
+    font-weight: bolder;
+}
+.About-me {
+    width: 100%;
+    margin-top: 60px;
+    font-family: 'Inter',sans-serif;
+}
+.About-top {
+    display: flex;
+}
+.lAbout h1{
+    margin-top: 70px;
+    margin-left:  30px;
+    width: 363px;
+    height: 460px;
+    background-color: #707070;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+}
+.lAbout h2{
+    margin-top: 45px;
+    margin-left:  58px;
+    width: 363px;
+    height: 460px;
+    background-color: black;
+    border-radius: 25px;
+}
+.lAbout img{
+    width: 393px;
+    height: 480px;
+    margin-top: -478px;
+    margin-left: 20px;
+    z-index: 2;
+    position: absolute;
+}
+.rAbout {
+ color: black;
+ font-family: 'Inter',sans-serif;
+}
+.rAbout h1{
+    width: 300px;
+    font-size:50px;
+    font-weight: bolder;
+    margin-left: 165px;
+    margin-top: 35px;  
+}
+.rAbout p{
+    margin-top: -95px;
+    margin-left: 120px;
+    font-size: 58px;
+}
+.rAbout h6{
+    width: 450px;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 5px;
+    padding-left: 9px;
+    margin-left: 75px;
+    margin-top: -45px;
+}
+.About-me1 h6{
+    width: 90%;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 12.5px;
+    margin-top: -63px;
+    padding: 3px;
+    margin-left: 25px;
+}
+.Quick-info {
+    width: 100%;
+    margin-top: 90px;
+}
+.Quick-info h1{
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.Quick-info p{
+    margin-top: -65px;
+    margin-left: 65px;
+    color: black;
+    font-size: 28px;
+}
+.Quick-note {
+    font-family: 'Inter',sans-serif;
+    width: 100%;
+}
+.Quick-note h6 {
+    width: 90%;
+    margin-left: 50px;
+   /* border: 2px solid red;*/
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.Quick-note h5 {
+    width: 90%;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.Quick-note h4 {
+    width: 90%;
+    margin-top: 20px;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding-top: 3px;
+    margin-left: 50px;
+}
+.Dresume button{
+    width: 345px;
+    height: 70px;
+    background-color: black;
+    color: mintcream;
+    border-radius: 60px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    margin-left: 500px;
+    margin-top: 60px;
+    font-size: 26px;
+}
+.Dresume button:hover {
+     background-color: dodgerblue;
+    border: 1.5px solid white;
+    color:mintcream;
+}
+.Education {
+    font-family: 'Inter',sans-serif;
+    width: 100%;
+    margin-left: 8px;
+}
+.Education h1{
+    color: black;
+    margin-top: 50px;
+    font-size: 26px;
+}
+.Education p{
+    color: black;
+    margin-top: -35px;
+    margin-left: 7px;
+}
+.college {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+}
+.college h2{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.college h3{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.sem1 li{
+    color: black;
+    font-weight: 400;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.sem2 li{
+    color: black;
+    font-weight: 400;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.other1 li {
+    width: 360px;
+    color: black;
+    font-size: 14.5px ;
+    font-weight: 400;
+    margin-top: 13px;
+    padding-top: 5px;
+}
+.other2 li {
+     color: black;
+    font-weight: 400;
+    margin-top: 13px;
+    padding-top: 5px;  
+    font-size: 15px; 
+}
+.school {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+}
+.School-2 {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 50px;
+}
+.School-2 h2{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;   
+}
+.School-2 h3{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.School-2 li{
+        color: black;
+    font-weight: 400;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.SSLC {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 50px;
+}
+.SSLC h2{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;   
+}
+.SSLC h3{
+    width: 390px;
+    margin-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.SSLC li{
+        color: black;
+    font-weight: 400;
+    margin-top: 15px;
+    padding-top: 5px;
+}.Education {
+    font-family: 'Inter',sans-serif;
+    width: 100%;
+}
+.Education h1{
+    color: black;
+    margin-top:150px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.Education p{
+    color: black;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+.college {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+}
+.college h2{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 25px;
+    color: black;
+    font-size: 12.5px;
+    font-weight: bolder;
+}
+.college h3{
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 35.5px;
+    font-weight: bolder;
+}
+.sem1 li{
+    width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.sem2 li{
+    width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.other1 li {
+    width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 12.5px;
+}
+.other2 li {
+    width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 12.5px;
+}
+.school {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+}
+.School-2 {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 90px;
+}
+.School-2 h2{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;   
+}
+.School-2 h3{
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.School-2 li{
+         width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.SSLC {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 80px;
+}
+.SSLC h2{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;   
+}
+.SSLC h3{
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.SSLC li{
+     width: 90%;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.C-P {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 150px;
+}
+.C-P h2{
+    width: 90%;
+    font-size: 16px;
+    margin-left: 45px;
+}
+.C-P p{
+    color: black;
+    margin-top: -35px;
+    margin-left: 30px;
+}
+.cert1 ul {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+.cert1 li{
+    width: 90%;
+    margin-top: 80px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.certi2 ul {
+   color: black;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 40px;
+}
+.certi2 li{
+       width: 90%;
+    margin-top: 80px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.cert3 ul {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.cert3 li{
+      width: 90%;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.boot {
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 90%;
+    margin-top: 50px;
+}
+.boot1 ul{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.boot1 li{
+    width: 92%;
+    margin-top: 80px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.boot2 ul{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    margin-top: 30px;
+}
+.boot2 li{
+          width: 90%;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.boot3 ul{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    width: 100%;
+    font-weight: bold;
+}
+.boot3 li{
+    width: 92%;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.skills {
+    width: 90%;
+    margin-top: 150px;
+    font-family: 'Intern',sans-serif;
+}
+.skills h2 {
+    text-align: center;
+    font-size:40px ;
+}
+.skills p{
+    text-align: center;
+    margin-top: -65px;
+}
+.skills-note p{
+    width: 99%;
+    text-align: left;
+    font-family: 'Inter',sans-serif;
+    margin-top: 80px;
+    font-size: 14.5px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.l-r-banner {
+    width: 100%;
+    margin-top: 80px;
+    scrollbar-color: mintcream;
+}
+ .logo {
+  margin-top: 155px;
+  width: 100%;
+  overflow-x:scroll;
+  display: flex;
+  margin-left: 20px;
+   
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+      padding-left: 60px;
+      transition:transform 2s linear ;   
+}
+.logo img:hover {
+  width: 190px;
+  height: 190px;
+  transform: rotateX(360deg);
+}
+.service {
+    width: 95%;
+    font-family: 'Intern',sans-serif;
+    margin-top: 170px;
+}
+.service h2 {
+    margin-left: 50px;
+    font-size: 26px;
+    
+}
+.service p {
+     margin-left: 50px;
+    margin-top: -55px;
+}
+.service-note {
+    width: 90%;
+}
+.service-note h4 {
+    margin-top: 130px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.service-note p{
+    width: 99%;
+    font-size: 14.1px;
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Intern',sans-serif;
+}
+.service-note li {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 14.5px;
+    padding-top: 45px;
+    font-weight: 500;
+}
+.project{
+    width: 100%;
+    font-family: 'Intern',sans-serif;
+
+}
+.project h2 {
+    width: 100%;
+    color: black;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+.project p{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    margin-top: -60px;
+}
+.w-d h2 {
+    width: 90%;
+    text-align: left;
+    padding-left: 40px;
+    color: black;
+    margin-top: 90px;
+    font-size: 26px;
+}
+.w-d p{
+    width: 90%;
+    text-align: left;
+    font-size: 70px;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+.smk {
+    width: 100%;
+
+}
+.smk img{
+    width: 85%;
+    border: 15px solid black;
+    border-radius: 35px;
+    margin-top: 90px;
+    margin-left: 52px;
+}
+.smk h2{
+    width: 90%;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.smk h6{
+    width: 94%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.smk ul{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.smk li{
+    width: 90%;
+    margin-left: 50px;
+    font-size: 14.5px;
+    font-weight: 400;
+    padding-top: 35px;
+}
+.smk h4{
+    width:95%;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left:65px;
+    margin-top: 70px;
+    color: black;
+}
+.smk a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.smk a:active{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.smk a:visited {
+    color: purple;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.bb {
+    width: 100%;
+    margin-top: 200px;
+}
+.bb img{
+    width: 90%;
+    height: 620px;
+    border: 15px solid black;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.bb h2{
+    width: 95%;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.bb h6{
+        width: 94%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.bb ul{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.bb li{
+    width: 90%;
+    margin-left: 50px;
+    font-size: 14.5px;
+    font-weight: 400;
+    padding-top: 35px;
+}
+.bb h4{
+    width:95%;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left:65px;
+    margin-top: 70px;
+    color: black;
+}
+.bb a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.bb a:active{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.bb a:visited {
+    color: purple;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.w-de h2 {
+    width: 90%;
+    text-align: left;
+    padding-left: 40px;
+    color: black;
+    margin-top: 90px;
+    font-size: 26px;
+}
+.w-de p{
+    width: 90%;
+    text-align: left;
+    font-size: 70px;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+.waffle{
+     width: 100%;
+    margin-top: 200px; 
+}
+.waffle img{
+    width: 90%;
+    height: 750px;
+    border: 15px solid black;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.waffle h2{
+    width: 95%;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.waffle h6{
+        width: 94%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.waffle h4{
+    width:95%;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left:65px;
+    margin-top: 70px;
+    color: black;
+}
+.waffle a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.waffle a:active{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.waffle a:visited {
+    color: purple;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.bb1 {
+    width: 100%;
+    margin-top: 200px;
+}
+.bb1 img{
+    width: 90%;
+    height: 620px;
+    border: 15px solid black;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.bb1 h2{
+    width: 95%;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.bb1 h6{
+        width: 94%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.bb1 ul{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.bb1 li{
+    width: 90%;
+    margin-left: 50px;
+    font-size: 14.5px;
+    font-weight: 400;
+    padding-top: 35px;
+}
+.bb1 h4{
+    width:95%;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left:65px;
+    margin-top: 70px;
+    color: black;
+}
+.bb1 a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.bb1 a:active{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.bb1 a:visited {
+    color: purple;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.review{
+    width: 100%;
+    margin-top: 200px;
+}
+.review h2{
+    font-family: 'Intern',sans-serif;
+    font-size: 30px;
+    margin-left: 160px;
+}
+.review p{
+    width: 80%;
+    margin-top: -105px;
+    margin-left: 160px;
+    font-size: 95px;
+}
+.reviews-slot{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.r-1 {
+    width: 100%;
+    padding-left: 50px;
+}
+.r-1 h2 {
+    width: 190%;
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+.r-1 p {
+    width: 250%;
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: 70px;
+    font-family: 'Intern',sans-serif;
+}
+.r-1 h3 {
+    width:190%;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Intern',sans-serif;
+    text-align: right;
+    margin-left: 130px;
+}
+.r-1 h4 {
+    width: 200%;
+    text-align: right;
+    margin-left: 120px;
+    font-size: 35px;
+    margin-top: -5px;
+    font-family: 'Intern',sans-serif;
+}
+.r-2 {
+    width: 100%;
+    margin-left: 900px;
+}
+.r-2 h2 {
+    width: 190%;
+    font-size: 40px;
+    margin-left: -190px;
+    font-weight: 500;
+}
+.r-2 p {
+    width: 400%;
+    font-size: 31px;
+    margin-top: 80px;
+    margin-left: -190px;
+    font-family: 'Intern',sans-serif;
+}
+.r-2 h3 {
+    width:250%;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Intern',sans-serif;
+    text-align: right;
+    margin-left: 20px;
+}
+.r-2 h4 {
+    width: 300%;
+    text-align: right;
+    margin-left: -0px;
+    font-size: 35px;
+    margin-top: -5px;
+    font-family: 'Intern',sans-serif;
+}
+.r-3 {
+    width: 100%;
+    margin-left: 830px;
+}
+.r-3 h2 {
+    width: 450%;
+    font-size: 40px;
+    margin-left: -200px;
+    font-weight: 500;
+}
+.r-3 p {
+    width: 690%;
+ /*   border: 2px solid red;*/
+    font-size: 31px;
+    margin-top: 80px;
+    margin-left: -190px;
+    font-family: 'Intern',sans-serif;
+}
+.r-3 h3 {
+    width:350%;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Intern',sans-serif;
+    text-align: right;
+    margin-left: 20px;
+}
+.r-3 h4 {
+    width: 600%;
+    text-align: right;
+    margin-left: -90px;
+    font-size: 35px;
+    margin-top: -5px;
+    font-family: 'Intern',sans-serif;
+}
+
+.contact {
+    width: 100%;
+    font-family: 'Intern',sans-serif;
+}
+.contact h2{
+    width: 90%;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.contact p{
+    font-size: 24px;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+.soical-contact {
+    margin-left: 50px;
+}
+.gmail
+{
+    width: 100%;
+    display: flex;
+}
+.gmail img{
+    width: 60px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left:30px ;
+}
+.gmail h4{
+width: 30%;
+font-family: 'Intern',sans-serif;
+font-size: 40px;
+margin-left: 20px;
+margin-top: 55px;
+}
+.gmail a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.gmail a:active{
+    color: red;
+    text-decoration: none;
+}
+.gmail a:visited {
+    color: purple;
+    text-decoration: none;
+}
+.linkedin
+{
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+.linkedin img{
+    width: 85px;
+    height: 85px;
+    margin-top: 35px;
+    margin-left:15px ;
+}
+.linkedin h4{
+width: 30%;
+font-family: 'Intern',sans-serif;
+font-size: 40px;
+margin-left: 15px;
+margin-top: 55px;
+}
+.linkedin a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.linkedin a:active{
+    color: red;
+    text-decoration: none;
+ 
+}
+.linkedin a:visited {
+    color: purple;
+    text-decoration: none;
+
+}
+.github
+{
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+.github img{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left:28px ;
+}
+.github h4{
+width: 30%;
+font-family: 'Intern',sans-serif;
+font-size: 40px;
+margin-left: 25px;
+margin-top: 55px;
+}
+.github a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.github a:active{
+    color: red;
+    text-decoration: none;
+}
+.github a:visited {
+    color: purple;
+    text-decoration: none;
+}
+.insta
+{
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+.insta img{
+    width: 85px;
+    height: 85px;
+    margin-top: 35px;
+    margin-left:15px ;
+}
+.insta h4{
+width: 30%;
+font-family: 'Intern',sans-serif;
+font-size: 40px;
+margin-left: 18px;
+margin-top: 55px;
+}
+.insta a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.insta a:active{
+    color: red;
+    text-decoration: none;
+}
+.insta a:visited {
+    color: purple;
+    text-decoration: none;
+}
+.whatsapp
+{
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+.whatsapp img{
+    width: 70px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left:20px ;
+}
+.whatsapp h4{
+width: 30%;
+font-family: 'Intern',sans-serif;
+font-size: 40px;
+margin-left: 25px;
+margin-top: 55px;
+}
+.whatsapp a{
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.whatsapp a:active{
+    color: red;
+    text-decoration: none;
+}
+.whatsapp a:visited {
+    color: purple;
+    text-decoration: none;
+}
+.quick-link{
+width: 100%;
+height: 650px;
+border: 15px solid #606060;
+margin-left: -8px;
+margin-top: 95px;
+background-color: #606060;
+font-family: 'Intern',sans-serif;
+}
+.link-top{
+    font-family: 'Intern',sans-serif;
+    width: 90%;
+    margin-top: -10px;
+}
+.link-top h2{
+    color: mintcream;
+    font-size: 60px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.link-top p{
+    color: mintcream;
+    font-size: 65px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.link-mid{
+width: 100%;
+display: flex;
+}
+.link-mid1{
+    width: 33%;
+}
+.link-mid1 img{
+width: 275px;
+height: 275px;
+border-radius: 50% ;
+margin-left: 20px;
+ box-shadow: 5px 2.5px 70px rgba(10, 181, 255, 0.9);
+}
+.link-mid2 ul{
+    width: 100%;
+margin-top: -10px;
+margin-left: 40px;
+}
+.link-mid2 li{
+    font-size: 40px;
+    color: mintcream;
+    text-decoration: underline;
+    padding-top: 35px; 
+}
+.link-mid3 ul{
+    width: 100%;
+margin-top: -10px;
+margin-left: 40px;
+}
+.link-mid3 li{
+    font-size: 40px;
+    color: mintcream;
+    text-decoration: underline;
+    padding-top: 35px; 
+}
+.link-bottom{
+    width: 100%;
+}
+.link-bottom h3{
+    width: 90%;
+    color: mintcream;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.link-bottom h1{
+    width: 100%;
+    height: 70px;
+    color: mintcream;
+    background-color: black;
+    border: 15px solid black;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 350;
+    margin-left: -20px;
+    margin-top: -30px;
+    padding-top: 9px;
+}
+}
