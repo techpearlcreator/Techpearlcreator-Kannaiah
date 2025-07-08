@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://techpearlcreator.github.io/Techpearlcreator-Kannaiah/sitemap.xml
